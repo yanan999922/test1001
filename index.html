@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>给特别的弟弟</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+<audio autoplay="autoplay" src="cancan.mp3" type="audio/mpeg">
+        
+    </audio>
+
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="space"/><span class="comments">/***2019—06-23,到</span>
+			<span class="space"/><span class="comments">*2020-01-14.*/</span><br />
+			Boy name = <span class="keyword">闫</span> 安<br />
+			<span class="comments"> 截止今天我对你的重要回忆： </span><br />
+			<span class="comments"> &nbsp;&nbsp; 6月23号加的你微信. </span>
+			<span class="comments"> 28号见面的：</span>
+			<span class="comments"> 第一次见面：天空下着大雨;</span>
+			<span class="comments"> 6月28号终于见面了：</span>
+			<span class="comments"> 傻傻的我当时看到你穿的是背带的牛仔裤，</span>
+			<span class="comments"> 由于时间有限的我，只能带你去了我平时吃晚饭的地方吃东西.</span>
+			<span class="comments"> 见到你的第一感受就是觉得你好开朗，</span>
+			<span class="comments"> 性格也算是外向点的那种。</span>;
+			<span class="comments"> 之后就是微信聊天了：</span>
+			<span class="comments"/>慢慢的我觉得我好像喜欢上了一个乐观开朗的你了;
+			<span class="comments"> 8月20号：</span>
+			<span class="comments"> 第一次微信语音和你表白，没有鲜花也没有浪漫，在你答应和我相处试试的时候我开心了一整个晚上</span><br />
+			<span class="comments">&nbsp;&nbsp; 第二次见你：10月4号天空还是下着雨：直到3号晚上才说四号去接你下班，四号去见你，四号也是一直下雨，于是就晚上7点40多吃完饭就出门了，到了之后就在哪里找花店的我找了好久没找到，最后终于在一个卖花篮和水果的地方找到了，第一次我也不知道买几朵，人家问我送谁，第几次，我说第一次，我女朋友然后就推荐了9朵，在加上两朵百合加上了巧克力，感受到了你可能比较累；后面你就连续大夜小夜上班，7号那天，我8点多起床去9点收拾好出门，10点半到的通化门，之前你说了你感觉我可能有想法吧，（对天发誓我蠢的和猪一样，只是没有考虑到你的感受），当天的我小心翼翼，想让你开心，缓和内心，白天吃了饭看了电影，晚上终于牵手了哈，我又开心的像个孩纸一样，证明你原谅了我，那天你给我看了你那几天写的东西，看完我可心疼了，但是我又不会说，那个时候我决定了以后决不能让弟弟你再不开心了（虽然会好难）</span><br />
+			<span class="comments"> &nbsp;&nbsp;11月17号，因为家里的事情回家了，16号因为太累，弟弟也是考完健康管理师回来还要上夜班，于是只能在周天17号去见弟弟，这一周时间里，突然觉得我好幸福啊，给弟弟做了一顿早中餐面条，做了一次午饭（被弟弟嘲讽做的好慢，土豆丝一般，青椒炒肉还可以，娃娃菜炖豆腐，豆腐入味不足），我继续进步哈，虽然后面陆陆续续的把小仙女气了好几次~~~</span>
+			<br>
+			<span class="comments"> &nbsp;&nbsp;1月14号，弟弟想要离开我的第三天，度日如年，弟弟弟弟，你怎么了，弟弟弟弟，你醒醒，弟弟意识丧失，1001,1002,1003,1004,……1007，弟弟颈动脉搏动消失，自主意识消失，立即予心外按压，01,02，03……30，检查颈部弟弟颈部无损伤、口腔有异物、无义齿，立即予以清除，1001,1002,1003……1010，弟弟颈动脉搏动恢复，自主意识恢复，多希望你能够和急救结果一样，哪怕是给我一次抢救的机会</span>
+			<br>
+			<br>
+			在这个日子里我想说一句:弟弟，在给我一次抢救的机会好吗;<br /><span class="comments"><br /></span>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					希望你能够抢救一下我<br/>&nbsp;&nbsp;&nbsp;&nbsp;距离我表白已经：
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					弟弟，我会给努力的。<br/>
+					<div class="signature">- 一个爱着你的人</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		<a href="#">....</a><br />
+		<a href="#">....</a><br />
+		
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+
+var together = new Date();
+		    together.setFullYear(2019,7, 20); 			//时间年月日
+		    together.setHours(23);						//小时	
+		    together.setMinutes(0);					//分钟
+		    together.setSeconds(0);					//秒前一位
+		    together.setMilliseconds(2);				//秒第二位
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+
+</body>
+</html>
